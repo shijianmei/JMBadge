@@ -15,6 +15,12 @@
 		4450D9A8215125400023BDA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4450D9A7215125400023BDA1 /* main.m */; };
 		4450D9B2215125400023BDA1 /* JMBadgeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4450D9B1215125400023BDA1 /* JMBadgeTests.m */; };
 		4450D9BD215125400023BDA1 /* JMBadgeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4450D9BC215125400023BDA1 /* JMBadgeUITests.m */; };
+		4450D9D2215126500023BDA1 /* UIView+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = 4450D9CC215126500023BDA1 /* UIView+Badge.m */; };
+		4450D9D3215126500023BDA1 /* CAAnimation+JMAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4450D9D0215126500023BDA1 /* CAAnimation+JMAnimation.m */; };
+		4450D9D4215126500023BDA1 /* UITabBarItem+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = 4450D9D1215126500023BDA1 /* UITabBarItem+Badge.m */; };
+		4450D9D7215126C50023BDA1 /* RootTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4450D9D6215126C50023BDA1 /* RootTabBarController.m */; };
+		44C224592151DDF4006002D7 /* UIBarButtonItem+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C224582151DDF4006002D7 /* UIBarButtonItem+Badge.m */; };
+		44C2245C2151E302006002D7 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C2245B2151E302006002D7 /* ViewController1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,19 @@
 		4450D9B8215125400023BDA1 /* JMBadgeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JMBadgeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4450D9BC215125400023BDA1 /* JMBadgeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMBadgeUITests.m; sourceTree = "<group>"; };
 		4450D9BE215125400023BDA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4450D9CB215126500023BDA1 /* UIView+Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Badge.h"; sourceTree = "<group>"; };
+		4450D9CC215126500023BDA1 /* UIView+Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Badge.m"; sourceTree = "<group>"; };
+		4450D9CD215126500023BDA1 /* JMBadgeProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMBadgeProtocol.h; sourceTree = "<group>"; };
+		4450D9CE215126500023BDA1 /* CAAnimation+JMAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAAnimation+JMAnimation.h"; sourceTree = "<group>"; };
+		4450D9CF215126500023BDA1 /* UITabBarItem+Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+Badge.h"; sourceTree = "<group>"; };
+		4450D9D0215126500023BDA1 /* CAAnimation+JMAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAAnimation+JMAnimation.m"; sourceTree = "<group>"; };
+		4450D9D1215126500023BDA1 /* UITabBarItem+Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+Badge.m"; sourceTree = "<group>"; };
+		4450D9D5215126C50023BDA1 /* RootTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootTabBarController.h; sourceTree = "<group>"; };
+		4450D9D6215126C50023BDA1 /* RootTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootTabBarController.m; sourceTree = "<group>"; };
+		44C224572151DDF4006002D7 /* UIBarButtonItem+Badge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Badge.h"; sourceTree = "<group>"; };
+		44C224582151DDF4006002D7 /* UIBarButtonItem+Badge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Badge.m"; sourceTree = "<group>"; };
+		44C2245A2151E302006002D7 /* ViewController1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		44C2245B2151E302006002D7 /* ViewController1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +120,15 @@
 		4450D9972151253F0023BDA1 /* JMBadge */ = {
 			isa = PBXGroup;
 			children = (
+				4450D9CA215125720023BDA1 /* JMBadge */,
 				4450D9982151253F0023BDA1 /* AppDelegate.h */,
 				4450D9992151253F0023BDA1 /* AppDelegate.m */,
 				4450D99B2151253F0023BDA1 /* ViewController.h */,
 				4450D99C2151253F0023BDA1 /* ViewController.m */,
+				44C2245A2151E302006002D7 /* ViewController1.h */,
+				44C2245B2151E302006002D7 /* ViewController1.m */,
+				4450D9D5215126C50023BDA1 /* RootTabBarController.h */,
+				4450D9D6215126C50023BDA1 /* RootTabBarController.m */,
 				4450D99E2151253F0023BDA1 /* Main.storyboard */,
 				4450D9A1215125400023BDA1 /* Assets.xcassets */,
 				4450D9A3215125400023BDA1 /* LaunchScreen.storyboard */,
@@ -130,6 +154,22 @@
 				4450D9BE215125400023BDA1 /* Info.plist */,
 			);
 			path = JMBadgeUITests;
+			sourceTree = "<group>";
+		};
+		4450D9CA215125720023BDA1 /* JMBadge */ = {
+			isa = PBXGroup;
+			children = (
+				4450D9CE215126500023BDA1 /* CAAnimation+JMAnimation.h */,
+				4450D9D0215126500023BDA1 /* CAAnimation+JMAnimation.m */,
+				4450D9CD215126500023BDA1 /* JMBadgeProtocol.h */,
+				4450D9CF215126500023BDA1 /* UITabBarItem+Badge.h */,
+				4450D9D1215126500023BDA1 /* UITabBarItem+Badge.m */,
+				44C224572151DDF4006002D7 /* UIBarButtonItem+Badge.h */,
+				44C224582151DDF4006002D7 /* UIBarButtonItem+Badge.m */,
+				4450D9CB215126500023BDA1 /* UIView+Badge.h */,
+				4450D9CC215126500023BDA1 /* UIView+Badge.m */,
+			);
+			path = JMBadge;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +302,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4450D9D7215126C50023BDA1 /* RootTabBarController.m in Sources */,
+				4450D9D4215126500023BDA1 /* UITabBarItem+Badge.m in Sources */,
+				4450D9D2215126500023BDA1 /* UIView+Badge.m in Sources */,
+				4450D9D3215126500023BDA1 /* CAAnimation+JMAnimation.m in Sources */,
 				4450D99D2151253F0023BDA1 /* ViewController.m in Sources */,
 				4450D9A8215125400023BDA1 /* main.m in Sources */,
+				44C224592151DDF4006002D7 /* UIBarButtonItem+Badge.m in Sources */,
 				4450D99A2151253F0023BDA1 /* AppDelegate.m in Sources */,
+				44C2245C2151E302006002D7 /* ViewController1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,8 +479,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 936MG4U394;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = JMBadge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -442,6 +488,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = gome.cn.JMBadge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -450,8 +497,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 936MG4U394;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = JMBadge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -459,6 +506,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = gome.cn.JMBadge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
